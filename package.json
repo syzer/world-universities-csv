@@ -1,0 +1,26 @@
+{
+  "name": "world-universities-seach",
+  "version": "1.0.0",
+  "description": "world-universities-csv ====================== This is a forked copy of two CSV files with universities in the US and around the world.",
+  "main": "extractData.js",
+  "scripts": {
+    "main": "search.js",
+    "build": "node extractData.js > world-universities.json",
+    "index": "node buildIndex.js > idx.json",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syzer/world-universities-csv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syzer/world-universities-csv/issues"
+  },
+  "homepage": "https://github.com/syzer/world-universities-csv#readme",
+  "devDependencies": {
+    "csv-parse": "^4.15.4",
+    "lunr": "^2.3.9"
+  }
+}

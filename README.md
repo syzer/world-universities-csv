@@ -1,4 +1,22 @@
 # University search
+Fast and fuzzy search for universities around the world
+Provides email verification
+
+# Usage
+
+```js
+const {isUniversityEmail} = require('world-universities-search')
+isUniversityEmail('someone.else@usb.ch') // true
+isUniversityEmail('someone.else@migros.ch') // flase
+isUniversityEmail('42') // flase
+```
+
+## Fuzzy match
+```js
+// Universitatsspital => Universitatsspital
+const {find} = require('world-universities-search')
+find('Universitatspital~2')
+```
 
 
 
