@@ -12,3 +12,5 @@ assert(isUniversityEmail('someone.else@usb.ch')) // true
 assert(isUniversityEmail('someone.else@syr.edu')) // true
 assert(isUniversityEmail('someone.else@migros.ch') === false) // false
 assert(isUniversityEmail('42') === false) // false
+
+assert(find('Base*').length > 2)

@@ -1,8 +1,9 @@
 {
   "name": "world-universities-search",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "world-universities-csv ====================== This is a forked copy of two CSV files with universities in the US and around the world.",
-  "main": "extractData.js",
+  "main": "./search.js",
+  "types": "./types.d.ts",
   "keywords": ["world universities list", "seach university", "email validator", "is university email", "university email"],
   "scripts": {
     "main": "search.js",
