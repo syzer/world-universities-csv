@@ -18,6 +18,12 @@ const {find} = require('world-universities-search')
 find('Universitatspital~2')
 ```
 
+## Find by email
+```js
+const {findByEmail} = require('world-universities-search')
+findByEmail('someone.surname@ethz.ch')
+```
+
 
 
 It's a forked version of forked version:

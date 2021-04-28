@@ -1,6 +1,6 @@
 {
   "name": "world-universities-search",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "world-universities-csv ====================== This is a forked copy of two CSV files with universities in the US and around the world.",
   "main": "./search.js",
   "types": "./types.d.ts",
